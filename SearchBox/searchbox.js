@@ -6,7 +6,6 @@ import {Search, X} from './svg';
 import theme from '../utils/theme';
 import Button from './button';
 import {Keyboard} from 'react-native';
-import {Value} from 'react-native-reanimated';
 
 function SearchBox() {
   const [Value, setValue] = React.useState("");
